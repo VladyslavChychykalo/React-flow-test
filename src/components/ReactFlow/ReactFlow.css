@@ -1,0 +1,48 @@
+.react-flow__node-default,
+.react-flow__node-input,
+.react-flow__node-output {
+  border-radius: 5px !important;
+}
+.react-flow__node-input.selected,
+.react-flow__node-input.selected:hover,
+.react-flow__node-triggerNode.selected,
+.react-flow__node-triggerNode.selected:hover,
+.react-flow__node-conditionsNode.selected,
+.react-flow__node-conditionsNode.selected:hover,
+.react-flow__node-delayNode.selected,
+.react-flow__node-delayNode.selected:hover,
+.react-flow__node-sendNode.selected,
+.react-flow__node-sendNode.selected:hover {
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.react-flow__handle {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.react-flow__handle-bottom {
+  bottom: -10px;
+}
+.react-flow__handle-top {
+  top: -10px;
+}
+.handle-yes:after,
+.handle-no:after {
+  position: relative;
+  background: white;
+  padding: 2px 9px;
+  border-radius: 20px;
+  text-align: center;
+  top: -28px;
+  left: -13px;
+}
+.handle-yes:after {
+  content: 'YES';
+  color: #d2f95d;
+}
+.handle-no:after {
+  content: 'NO';
+  color: #f96a5d;
+}
